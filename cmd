@@ -6,9 +6,9 @@ sudo yum install -y git docker unzip curl
 curl -fsSL https://ollama.com/install.sh | sh
 Start Ollama service:
 ollama serve &
-Pull LLaMA model:
+# Pull LLaMA model:
 ollama pull llama2
-Test:
+# Test:
 ollama run llama2
 
 
