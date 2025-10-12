@@ -1,0 +1,19 @@
+🔍 Analysis Prompts You Can Use
+You can run these one by one:
+"Give descriptive statistics for all numeric columns."
+"Check for missing values and show a summary of null counts."
+"Identify any correlations between fare amount, trip distance, and tip amount."
+"Detect outliers using z-scores or IQR method."
+________________________________________
+📊 Visualization Prompts
+Depending on your dataset columns (likely things like fare_amount, trip_distance, pickup_datetime, passenger_count, etc.), try:
+"Create a histogram of trip distances."
+"Plot a scatterplot of trip distance vs fare amount."
+"Show a boxplot of fare amount grouped by passenger count."
+"Convert pickup_datetime to hour of day and plot average fare per hour."
+________________________________________
+🚀 Optional: Advanced Ideas
+If you want to take it further:
+"Cluster trips using KMeans based on trip_distance and fare_amount."
+"Predict fare amount using linear regression with trip distance and passenger count."
+"Create a heatmap of correlation matrix."
